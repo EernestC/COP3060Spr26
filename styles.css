@@ -6,15 +6,32 @@ body,h1,h2,p,form,label,input,select,table,tr,td {
 }
 
 body {
-    background-color: #f4f4f4;
+    background-color: #f9efe6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-content: center;
 }
 
 #special {
     color: rgb(68, 223, 140);
     text-align: center;
-    margin-top: 20px;
+    opacity: 0.8;
 }
 
 .highlight {
-    color: rgb(232, 99, 28);
+    color: rgb(234, 95, 20);
+}
+
+h1 {
+color: aqua;
+}
+ 
+h2 {
+color: purple;
+}
+
+#h2Padding {
+   padding: 1em;
+  background-color: black;
+  opacity: 0.7;
+  border-radius: 10px;
 }
